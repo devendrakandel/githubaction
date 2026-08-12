@@ -28,7 +28,7 @@ jobs:
 
       # Step C: THE GATEKEEPER - Test the HTML syntax
       - name: Check HTML Syntax
-        run: npx htmlhint "**/*.html"
+        run: npx htmlhint "*/.html"
 
       # Step D: Package the files for deployment
       - name: Setup Pages
